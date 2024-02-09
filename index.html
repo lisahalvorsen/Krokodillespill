@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Krokodillespill</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Krokodillespillet</h1>
+
+    <div class="aboutGame">
+      <i>Slik spiller man: skriv inn riktig operator ("<", ">" eller "=") i
+      input-feltet mellom tallene. For å sjekke om svaret er riktig trykker man på "Sumbit"-knappen.
+      Dersom svaret er riktig får man ett poeng, 
+      dersom svaret er feil får man ett minuspoeng. 
+      For å få nytt regnestykke; trykk på "Reset"-knappen, mens
+      for å starte spillet på nytt, trykk på "Start på nytt"-knappen.
+      Lykke til!</i>
+    </div>
+
+    <br>
+    <div id="points"><strong>Poeng</strong>: </div>
+    <br>
+    <img src="/Img/croco3.jpg" alt="En søt krokodille" />
+
+    <br>
+    <br>
+
+    <div id="number1">Tall 1</div>
+    <input id="text" type="text" />
+    <div id="number2">Tall 2</div>
+
+    <br>
+
+    <button onclick="submitBtn()">Submit</button>
+    <button onclick="resetBtn()">Reset</button>
+    <button onclick="setToZero()">Start på nytt</button>
+
+    <script src="javascript.js"></script>
+  </body>
+</html>
